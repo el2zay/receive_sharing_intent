@@ -15,6 +15,7 @@ buildscript {
 
 plugins {
     id "com.android.library"
+    id "org.jetbrains.kotlin.android"
 }
 
 group 'com.kasem.receive_sharing_intent'
@@ -55,4 +56,3 @@ kotlin {
         jvmTarget = JvmTarget.JVM_17
     }
 }
-
